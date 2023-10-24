@@ -1,18 +1,18 @@
 const container = document.getElementById("drag-and-drop-app");
 let state = {
   elemek: {
-    "elso": {
-        id: "elso",
-        x: container.offsetLeft+10,
-        y: container.offsetTop+70,
+    "x": {
+        id: "x",
+        x: container.offsetLeft,
+        y: container.offsetTop,
     },
-    "masodik": {
-        id: "masodik",
+    "y": {
+        id: "y",
         x: container.offsetLeft + 20,
         y: container.offsetTop + 150,
     },
-    "harmadik": {
-        id: "harmadik",
+    "z": {
+        id: "z",
         x: container.offsetLeft + 40,
         y: container.offsetTop + 300,
     }

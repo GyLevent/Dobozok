@@ -12,7 +12,9 @@
 }
 
 .box{
-    background-color: blueviolet ;
-    border: 2px dashed black;
-    border-radius: 6px;
+    background-color: wheat ;
+    border: 5px black;
+    border-radius: 50%;
 }
+
+  
